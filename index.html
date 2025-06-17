@@ -1,57 +1,47 @@
 <!DOCTYPE html>
-<!-- Norāda, ka šis ir HTML5 dokuments -->
 <html lang="lv">
 <head>
-  <!-- Iestata simbolu kodējumu uz UTF-8 -->
+  <!-- Iestata rakstzīmju kodējumu -->
   <meta charset="UTF-8">
-  <!-- Padara vietni pielāgotu mobilajām ierīcēm -->
+  <!-- Nodrošina pareizu mērogošanu mobilajās ierīcēs -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
-  <!-- Lapas nosaukums, kas redzams pārlūkprogrammas cilnē -->
+  <!-- Lapas virsraksts -->
   <title>Lauris Kralliss – Personīgā mājaslapa</title>
-  
-  <!-- Pievieno ārējo CSS failu stila pielāgošanai -->
+  <!-- Lapas stils -->
   <link rel="stylesheet" href="style.css">
 </head>
-
 <body class="fade-in">
-  <!-- Galvene ar vārdu un navigācijas izvēlni -->
+  <!-- Galvene ar vārdu un navigāciju -->
   <header>
     <h1>Lauris Krallišs</h1>
     <nav>
-      <!-- Navigācijas saites uz lapas sadaļām -->
+      <!-- Navigācijas saites uz sadaļām -->
       <a href="#par">Par mani</a>
       <a href="#projekti">Projekti</a>
       <a href="#kontakti">Kontakti</a>
     </nav>
-    <button class="theme-toggle" onclick="toggleTheme()">Gaišs/Tumšs</button>
-
   </header>
 
-  <!-- Galvenais lapas saturs -->
+  <!-- Galvenais saturs -->
   <main>
-
-    <!-- Sadaļa "Par mani" -->
+    <!-- Par mani sadaļa -->
     <section id="par">
       <h2>Par mani</h2>
-      <p>
-        Esmu RTK programmēšanas inženierzinātņu students ar interesi par Java, tīmekļa izstrādi un MikroTik tehnoloģijām.
-        Brīvajā laikā nodarbojos ar kikboksu un strādāju pie savas profesionālās izaugsmes IT jomā.
-      </p>
+      <p>Esmu RTK programmēšanas inženierzinātņu students ar interesi par Java, tīmekļa izstrādi un MikroTik tehnoloģijām. Brīvajā laikā nodarbojos ar kikboksu un strādāju pie savas profesionālās izaugsmes IT jomā.</p>
     </section>
 
-    <!-- Sadaļa "Projekti" ar saistītajām saitēm -->
+    <!-- Projektu sadaļa -->
     <section id="projekti">
       <h2>Projekti</h2>
       <ul>
-        <!-- Saite uz GitHub projektu – Java GUI kalkulatoru -->
+        <!-- Saite uz GitHub Java projektu -->
         <li><a href="https://github.com/tavs-lietotajvards/projekts1">Java GUI Kalkulators</a></li>
-        <!-- Saite uz JS grupas sadalītāja lapu -->
+        <!-- Saite uz grupu sadalītāja projektu -->
         <li><a href="https://silentlv.github.io/Grupu-Sadalit-js/">JS Grupas Sadalītājs</a></li>
       </ul>
     </section>
 
-    <!-- Sadaļa "Kontakti" ar epastu, tālruni un GitHub -->
+    <!-- Kontaktinformācija -->
     <section id="kontakti">
       <h2>Kontakti</h2>
       <p><strong>E-pasts:</strong> <a href="mailto:lauris.krallišs@gmail.com">lauris.krallišs@gmail.com</a></p>
@@ -65,7 +55,7 @@
     <p>© Lauris Kralliss, <span id="year"></span></p>
   </footer>
 
-  <!-- Pievieno ārējo JavaScript failu (piemēram, lai aizpildītu gadu automātiski) -->
+  <!-- JavaScript fails lapas funkcionalitātei -->
   <script src="script.js"></script>
 </body>
 </html>
